@@ -1,0 +1,14 @@
+#music-slider{
+    display: flex;
+    width: 100%;
+    padding:10px 5px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+#music-slider::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, and Opera */
+}

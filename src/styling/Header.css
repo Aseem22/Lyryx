@@ -1,0 +1,13 @@
+.header{
+    width:100%;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    position: fixed;
+}
+.logo img{
+    width: 120px;
+    height: 100%;
+    object-fit: center;
+    flex: 1;
+}

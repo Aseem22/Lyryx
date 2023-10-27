@@ -1,0 +1,24 @@
+
+.side-bar{
+    position: absolute;
+    padding-top: 50px;
+    top:100px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width:15%;
+    height: 100vh;
+    position: fixed;
+}
+.side-bar span{
+    background-color: black;
+    color: white;
+    margin: 20px 5px 0px 20px;
+    cursor: pointer;
+    font-size: 30px;
+    overflow: hidden;
+}
+.side-bar span:hover{
+    color: red;
+    transition: all 0.2s ease 0s;
+}

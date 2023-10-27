@@ -1,0 +1,25 @@
+#music-tiles{
+    border: 2px solid rgb(236, 114, 114);
+    display: flex;
+    flex-direction: column;
+}
+#music-tiles img{
+    width:320px;
+    height:210px ;
+    object-fit: contain;
+    background-color: white;
+
+}
+#song-name{
+    font-size: 20px;
+    margin: 0px 0px;
+    padding: 0px 0px 0px 10px;
+    font-style: bold;
+}
+#artist-name{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    margin: 0px 0px;
+    padding: 0px 0px 0px 10px;
+}
